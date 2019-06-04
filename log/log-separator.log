@@ -1,0 +1,118 @@
+2019-06-04 12:57:41,687  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 18:27:22,292  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 18:28:28,603  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 18:29:06,106  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 18:29:16,932  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 18:29:25,076  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 18:35:08,605  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 18:35:16,676  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 18:51:36,339  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:12:37,981  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:19:10,588  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:19:38,887  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:20:24,528  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:21:52,950  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:22:32,762  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:24:48,208  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:44:25,053  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:45:19,765  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 19:45:19,835  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION ENDED------
+2019-06-04 20:14:44,329  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 20:14:44,363  INFO SeparatorServiceImpl: 
+Process Keys found: 2
+2019-06-04 20:14:44,363  INFO SeparatorServiceImpl: 
+Begin searching for all logs.
+2019-06-04 20:14:44,364  INFO SeparatorServiceImpl: 
+Begin searching log for process key: [-1141097412]
+2019-06-04 20:14:44,376  INFO SeparatorServiceImpl: 
+Stop searching log for process key: [-1141097412]
+2019-06-04 20:14:44,376  INFO SeparatorServiceImpl: 
+Begin searching log for process key: [-1234567899]
+2019-06-04 20:14:44,385  INFO SeparatorServiceImpl: 
+Stop searching log for process key: [-1234567899]
+2019-06-04 20:14:44,386  INFO SeparatorServiceImpl: 
+Amount of total logs row: 38
+2019-06-04 20:14:44,386  INFO SeparatorServiceImpl: 
+------START EXPORTING LOGS------
+2019-06-04 20:14:44,396  INFO SeparatorServiceImpl: 
+------END EXPORTING LOGS------
+2019-06-04 20:14:44,396  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION ENDED------
+2019-06-04 20:14:58,955  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 20:14:58,988  INFO SeparatorServiceImpl: 
+Process Keys found: 2
+2019-06-04 20:14:58,988  INFO SeparatorServiceImpl: 
+Begin searching for all logs.
+2019-06-04 20:14:58,988  INFO SeparatorServiceImpl: 
+Begin searching log for process key: [-1141097412]
+2019-06-04 20:14:59,000  INFO SeparatorServiceImpl: 
+Stop searching log for process key: [-1141097412]
+2019-06-04 20:14:59,001  INFO SeparatorServiceImpl: 
+Begin searching log for process key: [-1234567899]
+2019-06-04 20:14:59,010  INFO SeparatorServiceImpl: 
+Stop searching log for process key: [-1234567899]
+2019-06-04 20:14:59,010  INFO SeparatorServiceImpl: 
+Amount of total logs row: 38
+2019-06-04 20:14:59,010  INFO SeparatorServiceImpl: 
+------START EXPORTING LOGS------
+2019-06-04 20:14:59,017  INFO SeparatorServiceImpl: 
+------END EXPORTING LOGS------
+2019-06-04 20:14:59,018  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION ENDED------
+2019-06-04 20:15:54,750  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 20:15:54,765  INFO SeparatorServiceImpl: 
+There is no match found.
+2019-06-04 20:15:54,765  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION ENDED------
+2019-06-04 20:49:27,425  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 20:50:05,773  INFO SeparatorServiceImpl: 
+Process Keys found: 2
+2019-06-04 20:50:05,773  INFO SeparatorServiceImpl: 
+Begin searching for all logs.
+2019-06-04 20:50:05,773  INFO SeparatorServiceImpl: 
+Begin searching log for process key: [-1141097412]
+2019-06-04 20:50:05,779  INFO SeparatorServiceImpl: 
+End searching log for process key: [-1141097412]
+2019-06-04 20:50:05,779  INFO SeparatorServiceImpl: 
+Begin searching log for process key: [-1234567899]
+2019-06-04 20:50:05,785  INFO SeparatorServiceImpl: 
+End searching log for process key: [-1234567899]
+2019-06-04 20:50:05,785  INFO SeparatorServiceImpl: 
+Amount of total logs row: 38
+2019-06-04 20:50:05,785  INFO SeparatorServiceImpl: 
+------START EXPORTING LOGS------
+2019-06-04 20:50:05,792  INFO SeparatorServiceImpl: 
+------END EXPORTING LOGS------
+2019-06-04 20:51:40,859  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 20:51:54,066  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION ENDED------
+2019-06-04 20:57:30,888  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 21:00:37,622  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION STARTED------
+2019-06-04 21:01:10,163  INFO LogSeparatorApplication: 
+------LOG SEPARATOR APPLICATION ENDED------
