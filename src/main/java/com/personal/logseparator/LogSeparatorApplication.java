@@ -10,6 +10,8 @@ import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.annotation.PropertySource;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 @SpringBootApplication
@@ -41,8 +43,8 @@ public class LogSeparatorApplication {
             Log log;
             while (next) {
                 log = new Log();
-                System.out.println("Please enter file path input: ");
-                log.setPathInput(scanner.nextLine());
+                System.out.println("Please enter file path input: (if more than one, delimiter by ;)");
+                log.setPathInputs(this.pathInputSeparator(scanner.nextLine()));
                 System.out.println("Please enter search key: ");
                 log.setSearchKey(scanner.nextLine());
                 System.out.println("Please enter path output: ");
@@ -62,6 +64,10 @@ public class LogSeparatorApplication {
             LOGGER.error("Log Separator Exception: ", e);
         }
         LOGGER.info("------LOG SEPARATOR APPLICATION ENDED------");
+    }
+
+    private List<String> pathInputSeparator(String inputs) {
+        return Arrays.asList(inputs.split(";"));
     }
 
     private boolean nextValidation(Scanner scanner) {

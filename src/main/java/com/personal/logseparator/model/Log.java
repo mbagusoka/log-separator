@@ -1,23 +1,24 @@
 package com.personal.logseparator.model;
 
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 public class Log {
 
-    private String pathInput;
+    private List<String> pathInputs;
     private String pathOutput;
     private String fileName;
     private String searchKey;
-    private Set<String> processKey;
+    private Map<String, Set<String>> processKeyMap;
     private List<String> logs;
 
-    public String getPathInput() {
-        return pathInput;
+    public List<String> getPathInputs() {
+        return pathInputs;
     }
 
-    public void setPathInput(String pathInput) {
-        this.pathInput = pathInput;
+    public void setPathInputs(List<String> pathInputs) {
+        this.pathInputs = pathInputs;
     }
 
     public String getPathOutput() {
@@ -44,12 +45,12 @@ public class Log {
         this.searchKey = searchKey;
     }
 
-    public Set<String> getProcessKey() {
-        return processKey;
+    public Map<String, Set<String>> getProcessKeyMap() {
+        return processKeyMap;
     }
 
-    public void setProcessKey(Set<String> processKey) {
-        this.processKey = processKey;
+    public void setProcessKeyMap(Map<String, Set<String>> processKeyMap) {
+        this.processKeyMap = processKeyMap;
     }
 
     public List<String> getLogs() {
