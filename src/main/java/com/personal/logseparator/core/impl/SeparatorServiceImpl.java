@@ -56,7 +56,9 @@ public class SeparatorServiceImpl implements SeparatorService {
                 line = scanner.nextLine();
                 if (this.isPatternMatch(searchKey, line)) {
                     int substring = line.indexOf(BRACKET);
-                    processKeys.add(line.substring(substring, substring + 13));
+                    if (substring >= 0) {
+                        processKeys.add(line.substring(substring, substring + 13));
+                    }
                 }
             }
         } catch (FileNotFoundException e) {

@@ -53,7 +53,7 @@ public class LogSeparatorApplication {
                 log.setFileName(scanner.nextLine());
                 System.out.println("Proceed with this current setup? Y/N ");
                 if (YES.equalsIgnoreCase(scanner.nextLine())) {
-                    System.out.println("Please wait while your query been exported. ");
+                    System.out.println("Please wait while the system is processing. ");
                     separatorService.processLog(log);
                     next = this.nextValidation(scanner);
                 } else {
